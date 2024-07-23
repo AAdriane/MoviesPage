@@ -3,7 +3,7 @@ import ServerlessHttp from 'serverless-http';
 
 const app = express();
 
-app.get("/index", (req, res) => {
+app.get("/src/index", (req, res) => {
     return res.json({messagens: 'Hello world'});
 })
 
